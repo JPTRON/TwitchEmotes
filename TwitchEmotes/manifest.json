@@ -1,0 +1,27 @@
+{
+
+  "manifest_version": 2,
+  "name": "TwitchEmotes",
+  "version": "1.0",
+
+  "description": "Emotes sem a necessidade do streamer configurar ffz ou bttv.",
+  "browser_action": {
+    "default_title": "TwitchEmotes"
+  },
+
+  "icons": {
+    "48": "icons/icon.png"
+  },
+
+  "web_accessible_resources": [
+    "emotes.json"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.twitch.tv/*"],
+      "js": ["twitchEmotes.js"]
+    }
+  ]
+
+}

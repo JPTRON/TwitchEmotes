@@ -3,7 +3,7 @@ Web extension that provides twitch extra emotes. Like ffz and bttv, but only for
 
 - Compatibility:
   * Firefox : ✔️
-  * Google Chrome : ✔️
+  * Google Chrome : ❌
   * Edge : ❓
   * Opera : ❓
   * Safari : ❓

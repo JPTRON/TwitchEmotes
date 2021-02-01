@@ -4,7 +4,7 @@
   "name": "TwitchEmotes",
   "version": "1.0",
 
-  "description": "Emotes sem a necessidade do streamer configurar ffz ou bttv.",
+  "description": "Web extension that provides twitch extra emotes. Like ffz and bttv, but only for the user.",
   "browser_action": {
     "default_title": "TwitchEmotes"
   },
@@ -12,11 +12,7 @@
   "icons": {
     "48": "icons/icon.png"
   },
-
-  "web_accessible_resources": [
-    "emotes.json"
-  ],
-
+  
   "content_scripts": [
     {
       "matches": ["*://*.twitch.tv/*"],
